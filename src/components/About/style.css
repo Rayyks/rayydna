@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 .flex2 {
-  margin-top: 1cm;
+  margin-top: -1cm;
   background-color: white;
   transform: translateY(-12%);
   width: 100%;
