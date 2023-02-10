@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  top: 15cm;
+  height: 10vh;
+  z-index: 99;
+}
+
+.container1 {
+  display: flex;
+}
+
+.nav-list {
+  padding-left: 11cm;
+  padding-right: 10cm;
+}
+
+.link {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+
+.active {
+  border-bottom-color: white;
+
+  border-bottom: 3px solid white;
+}
+
+.custom-btn {
+  width: 100%;
+  transition: all 0.2s ease;
+  color: black;
+  position: relative;
+  bottom: 5px;
+  border: 2px solid white;
+}
+
+.custom-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.custom-btn:active {
+  background-color: black;
+}

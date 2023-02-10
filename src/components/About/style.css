@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.flex2 {
+  margin-top: 1cm;
+  background-color: white;
+  transform: translateY(-12%);
+  width: 100%;
+  animation-name: onLoad;
+  animation-duration: 1s;
+}
+
+.container3 {
+  transform: translateY(10%);
+  padding-left: 1rem;
+}
+
+.menu-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-button {
+  position: relative;
+  top: 1.8vh;
+  font-size: 2rem;
+}
+
+.project-button {
+  font-size: 2rem;
+  position: relative;
+  top: 1.8vh;
+  right: 3vh;
+}
+
+.title {
+  color: transparent;
+  -webkit-text-stroke: 5px black;
+  overflow: hidden;
+  padding-top: 3cm;
+  font-family: customFont;
+  font-size: 11rem;
+  text-align: center;
+  animation-name: aboutOn;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.25, 5, 0.35, 0.5);
+}
+
+.me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: customFont;
+  font-size: 2rem;
+}
+
+.pict {
+  padding-top: 7cm;
+}
+
+.about-me .me {
+  text-align: justify;
+}
+
+.img {
+  width: 70%;
+  height: auto;
+  position: relative;
+  left: 3cm;
+}
+
+.skills {
+  margin-top: 2cm;
+  text-align: center;
+}
+
+.used {
+  font-family: customFont;
+  font-size: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 5vh;
+}
+
+@keyframes onLoad {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    background-color: white;
+  }
+}
+@keyframes aboutOn {
+  from {
+    opacity: 0;
+    transform: translateY(-90%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=style.css.map */
