@@ -1,1 +1,35 @@
-/*# sourceMappingURL=style.css.map */
+.flex3 {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+}
+
+.myProject {
+  text-align: center;
+  font-family: customFont;
+  font-size: 11rem;
+}
+
+.card {
+  position: relative;
+  left: 5.5cm;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-project {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.link-content {
+  display: flex;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */

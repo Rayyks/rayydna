@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 .flex2 {
-  margin-top: -1cm;
+  margin-top: 1cm;
   background-color: white;
   transform: translateY(-12%);
   width: 100%;
@@ -54,6 +54,7 @@
   align-items: center;
   font-family: customFont;
   font-size: 2rem;
+  padding-left: 1cm;
 }
 
 .pict {

@@ -1,17 +1,20 @@
 import React from "react";
-// import data from "../../data.js";
-// import Project from "./Project.js";
+import data from "../../data.js";
+import Project from "./Project.js";
+import "./style.css";
 
 const Projects = () => {
   return (
-    <div className="container-fluid bg-light p-5 min-vh-100">
-      {/* <div className="row">
+    <div className="flex3 container-fluid bg-light p-5 min-vh-100">
+      {/* HEADER */}
+      <header>
+        <h1 className="myProject">PROJECT</h1>
+      </header>
+      {/* HEADER */}
+      <div className=" row-start-auto">
         {data.ProjectsData.map((project) => {
           return (
-            <div
-              className="col-12 d-flex justify-content-center"
-              key={project.id}
-            >
+            <div className="flex " key={project.id}>
               <Project
                 id={project.id}
                 image={project.img}
@@ -24,7 +27,7 @@ const Projects = () => {
             </div>
           );
         })}
-      </div> */}
+      </div>
     </div>
   );
 };

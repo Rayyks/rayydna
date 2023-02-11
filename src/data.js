@@ -1,22 +1,22 @@
-import Page from "./assets/portfolioImages/e-shop.png";
-import Todo from "./assets/portfolioImages/rayy-dev.png";
+import Todo from "./assets/img/portfolio.png";
+import Portfolio from "./assets/img/portfolio.png";
 
 // in progress projects
 
 const ProjectsData = [
   {
     id: "Portfolio",
-    img: Todo,
+    img: Portfolio,
     name: "Portfolio Web",
-    stack: ["< React.js />  ", "< SCSS />"],
+    stack: ["< React.js />", "< SCSS />", "< Tailwindcss/>", "</>"],
     live: "#",
     source: "https://github.com/Rayyks/mainmain",
     description:
-      "Responsive portfolio web with animation. That makes the web looks more fun and enjoyable",
+      "This is my first project, a portfolio web that can explain how far i've been learning",
   },
   {
-    id: "E-SHOP",
-    img: Page,
+    id: "To Do List",
+    img: Todo,
     name: "E-Shop Websites (in progres)",
     stack: ["< React.js />   ", "< SCSS />"],
     live: "#",
