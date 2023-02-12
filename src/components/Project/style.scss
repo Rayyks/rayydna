@@ -1,7 +1,7 @@
 .flex3 {
   width: 100%;
   height: auto;
-  background-color: black;
+  background-image: url(../../assets/img/back.jpg);
   color: white;
 }
 
@@ -9,6 +9,8 @@
   text-align: center;
   font-family: customFont;
   font-size: 11rem;
+  padding-bottom: 10cm;
+  padding-top: 15vh;
 }
 
 .card {
@@ -32,4 +34,35 @@
   background-color: white;
   color: black;
   font-weight: 700;
+}
+
+// HOME BUTTON
+.home-button2 {
+  font-size: 2rem;
+}
+
+// ICONS2
+.icons2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+  padding-left: 29cm;
+  gap: 15px;
+  width: 200px;
+  height: 17px;
+  animation-name: iconAnimate;
+  animation-duration: 1s;
+}
+
+@keyframes iconAnimate {
+  from {
+    opacity: 0;
+    transform: translateX(-100cm);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

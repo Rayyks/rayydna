@@ -16,7 +16,6 @@ const Navbar = () => {
           /> */}
           <span className=" text-white ">ME</span>
         </div>
-
         <div className="nav-list pt-1 space-x-7">
           <NavLink to="/" className="link me-5">
             Home
@@ -28,7 +27,6 @@ const Navbar = () => {
             Projects
           </NavLink>
         </div>
-
         <div>
           <NavLink to="/contact" className="link">
             <button className="custom-btn pt-2 pb-2 pr-2 pl-2 border-white bg-white">

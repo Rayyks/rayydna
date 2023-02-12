@@ -24,14 +24,14 @@
 
 .home-button {
   position: relative;
-  top: 1.8vh;
+  top: 0.6cm;
   font-size: 2rem;
 }
 
 .project-button {
   font-size: 2rem;
   position: relative;
-  top: 1.8vh;
+  top: 0.6cm;
   right: 3vh;
 }
 
@@ -67,7 +67,6 @@
 
 .img {
   width: 70%;
-  height: auto;
   position: relative;
   left: 3cm;
 }

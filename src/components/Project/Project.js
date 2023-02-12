@@ -8,13 +8,18 @@ function Project({ id, image, name, stack, live, source, desc }) {
     <div className="">
       {/* My Project */}
       <div className="card mb-5" style={{ maxWidth: "900px" }}>
-        <div className="backdrop-blur-xl bg-white bg-opacity-10 rounded card-content">
+        <div className="backdrop-blur-xl bg-white bg-opacity-10 rounded-xl card-content">
           {/* CONTENT */}
-          <div className="">
-            <img src={image} className="project-img imageg" alt={name} />
+          <div className="pt-4 pb-4 pl-4">
+            <img
+              src={image}
+              className="project-img imageg rounded-md"
+              alt={name}
+            />
           </div>
+
           {/* TEXT */}
-          <div className=" ">
+          <div className="">
             <div className="card-body pl-5">
               <h5 className="card-title font-bold text-2xl">{name}</h5>
               <p className="card-text">{desc}</p>
@@ -43,9 +48,11 @@ function Project({ id, image, name, stack, live, source, desc }) {
               </div>
             </div>
           </div>
+
           {/* TEXT */}
         </div>
       </div>
+
       {/* END MY PROJECT */}
     </div>
   );

@@ -150,7 +150,7 @@ const Home = () => {
             </a>
           </div>
           {/* END TWITTER ICON */}
-          <div className="about-button uppercase font-light text-white">
+          <div className="about-button uppercase font-normal text-white">
             <Link to="/about">
               About<span>&#8594;</span>
             </Link>

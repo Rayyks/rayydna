@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Me from "../../assets/img/me.jpg";
+import Me from "../../assets/img/me-bruh.jpg";
 import "./style.css";
 import HtmlLogo from "../../assets/icons/html.svg";
 import CssLogo from "../../assets/icons/css.svg";
@@ -11,6 +11,7 @@ import Gitlogo from "../../assets/icons/git.svg";
 import Sasslogo from "../../assets/icons/sass.svg";
 import Taillogo from "../../assets/icons/tailwindcss.svg";
 import Figma from "../../assets/icons/figma.svg";
+import Bootstrap from "../../assets/icons/Bootstrap.svg";
 
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
@@ -19,12 +20,12 @@ const About = () => {
     <div className="flex flex2">
       <div className="container3">
         <div className="menu-top">
-          <div className="home-button">
+          <div className="home-button font-normal">
             <Link to={"/"}>
               <span>&larr;</span>HOME
             </Link>
           </div>
-          <div className="project-button">
+          <div className="project-button font-normal">
             <Link to={"/projects"}>
               PROJECT <span>&rarr;</span>
             </Link>
@@ -78,7 +79,8 @@ const About = () => {
             <img className="w-20 " src={VSlogo} alt="logo Visual Studio" />
             <img className="w-20 " src={Sasslogo} alt="logo SASS" />
             <img className="w-20 " src={Taillogo} alt="logo Tailwincdcss" />
-            <img className="w-20 " src={Figma} alt="logo Tailwincdcss" />
+            <img className="w-20 " src={Figma} alt="logo Figma" />
+            <img className="w-20 " src={Bootstrap} alt="logo Bootstrap" />
             <img className="w-20 " src={Gitlogo} alt="logo Git" />
           </div>
         </AnimationOnScroll>

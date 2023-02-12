@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-// BODY
+// BODY ////////////////////////////////////////////////
 .flex2 {
   margin-top: 1cm;
   background-color: white;
@@ -17,7 +17,7 @@
   padding-left: 1rem;
 }
 
-// MENU BUTTON
+// MENU BUTTON //////////////////////////////////////////////
 .menu-top {
   display: flex;
   flex-direction: row;
@@ -27,19 +27,18 @@
 
 .home-button {
   position: relative;
-  top: 1.8vh;
+  top: 0.6cm;
   font-size: 2rem;
 }
 
 .project-button {
   font-size: 2rem;
   position: relative;
-  top: 1.8vh;
+  top: 0.6cm;
   right: 3vh;
 }
 
-// ABOUTME
-
+// ABOUTME /////////////////////////////////////////////////
 .title {
   color: transparent;
   -webkit-text-stroke: 5px black;
@@ -72,12 +71,11 @@
 
 .img {
   width: 70%;
-  height: auto;
   position: relative;
   left: 3cm;
 }
 
-// SKILLS
+// SKILLS ////////////////////////////////////////////////
 .skills {
   margin-top: 2cm;
   text-align: center;
@@ -96,7 +94,7 @@
   padding-top: 5vh;
 }
 
-// ANIMATION ON LOAD
+// ANIMATION ON LOAD ///////////////////////////////////////////////
 @keyframes onLoad {
   from {
     opacity: 0;
