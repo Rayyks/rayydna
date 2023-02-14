@@ -8,9 +8,14 @@
 .myProject {
   text-align: center;
   font-family: customFont;
-  font-size: 11rem;
-  padding-bottom: 10cm;
+  font-size: 11.5rem;
+  padding-bottom: 5cm;
   padding-top: 15vh;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: url(../../assets/img/solar.gif);
+  animation-name: proText;
+  animation-duration: 1s ease-in-out;
 }
 
 .card {
@@ -41,6 +46,7 @@
 }
 
 .icons2 {
+  margin-top: -1vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -54,6 +60,42 @@
   animation-duration: 1s;
 }
 
+.instagram {
+  transition: 0.3s ease;
+}
+
+.instagram:hover {
+  background-color: purple;
+  border-radius: 1.5vh;
+}
+
+.facebook {
+  transition: 0.3s ease;
+}
+
+.facebook:hover {
+  background-color: purple;
+  border-radius: 1.5vh;
+}
+
+.linkedin {
+  transition: 0.3s ease;
+}
+
+.linkedin:hover {
+  background-color: purple;
+  border-radius: 1.5vh;
+}
+
+.twitter {
+  transition: 0.3s ease;
+}
+
+.twitter:hover {
+  background-color: purple;
+  border-radius: 1.5vh;
+}
+
 @keyframes iconAnimate {
   from {
     opacity: 0;
@@ -62,5 +104,15 @@
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+@keyframes proText {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(100);
   }
 }/*# sourceMappingURL=style.css.map */

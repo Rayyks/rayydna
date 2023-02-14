@@ -40,13 +40,13 @@ const About = () => {
         {/* CONTENT */}
         <AnimationOnScroll
           offset={210}
-          animateIn="animate__animated animate__fadeInRight "
+          animateIn="animate__animated animate__fadeInUp "
         >
           <div className="pict grid grid-rows-3 grid-flow-col gap-4">
             <p className="me row-span-3 text-justify">
-              Im, Rayyand Kananda Syahputra a a Frontend Developer, i like
-              making cool websites projects which train me to improve my coding
-              and logic, and every day im always mastering my skill to be a good
+              Hello! Im Rayyand Kananda Syahputra a Frontend Developer, i like
+              making cool and simple websites projects which train me to improve
+              my coding and logic, and im always mastering my skill to be a good
               Frontend Developer
             </p>
             <img

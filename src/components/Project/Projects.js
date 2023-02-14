@@ -2,7 +2,6 @@ import React from "react";
 import data from "../../data.js";
 import Project from "./Project.js";
 import { Link } from "react-router-dom";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 import "./style.css";
 
 const Projects = () => {
@@ -162,10 +161,10 @@ const Projects = () => {
         <h1 className="myProject">PROJECT</h1>
       </header>
       {/* HEADER */}
-      <div className=" row-start-auto">
+      <div className="row-start-auto">
         {data.ProjectsData.map((project) => {
           return (
-            <div className="flex " key={project.id}>
+            <div className="flex" key={project.id}>
               <Project
                 id={project.id}
                 image={project.img}

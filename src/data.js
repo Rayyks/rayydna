@@ -8,21 +8,21 @@ const ProjectsData = [
     id: "Portfolio",
     img: Portfolio,
     name: "Portfolio Web",
-    stack: ["< React.js />", "< SCSS />", "< Tailwindcss/>", "</>"],
+    stack: ["< React.js /> ", "< SCSS /> ", "< Tailwindcss/>", "<Bootstrap/>"],
     live: "#",
-    source: "https://github.com/Rayyks/mainmain",
+    source: "https://github.com/Rayyks/rayydna",
     description:
       "This is my first project, a portfolio web that can explain how far i've been learning",
   },
   {
-    id: "To Do List",
+    id: "Todo",
     img: Todo,
-    name: "E-Shop Websites (in progres)",
-    stack: ["< React.js />   ", "< SCSS />"],
+    name: "To Do List (in progres)",
+    stack: ["< React.js /> ", "< SCSS />"],
     live: "#",
     source: "https://github.com/Rayyks/E-Shop",
     description:
-      "This is my progres on react.js, im trying to making a shopping website with user can add, create, and delete their cart",
+      "This is my second project, im making a To Do List that users can create, read, update and delete(CRUD) their To Do List",
   },
 ];
 

@@ -5,10 +5,10 @@ import "./style.css";
 
 function Project({ id, image, name, stack, live, source, desc }) {
   return (
-    <div className="">
+    <div className="card-section">
       {/* My Project */}
       <div className="card mb-5" style={{ maxWidth: "900px" }}>
-        <div className="backdrop-blur-xl bg-white bg-opacity-10 rounded-xl card-content">
+        <div className="backdrop-blur-xl bg-white bg-opacity-10 rounded-xl card-content shadow-2xl">
           {/* CONTENT */}
           <div className="pt-4 pb-4 pl-4">
             <img

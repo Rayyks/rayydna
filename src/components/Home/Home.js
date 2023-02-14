@@ -13,7 +13,7 @@ const Home = () => {
           {/* INSTAGRAM ICON */}
 
           <div className="instagram">
-            <a href="https://www.instagram.com/rayy__dna/" target={"_blank"}>
+            <a href="https://www.instagram.com/rayy__dna/" target="_blank">
               <svg
                 width="40"
                 height="40"
@@ -44,7 +44,7 @@ const Home = () => {
 
           {/* FACEBOOK ICON */}
           <div className="facebook">
-            <a href="https://www.facebook.com" target={"_blank"}>
+            <a href="https://www.facebook.com" target="_blank">
               <svg
                 width="40"
                 height="40"
@@ -87,7 +87,7 @@ const Home = () => {
 
           {/* ICON LINKEDIN */}
           <div className="linkedin">
-            <a href="https://linkedin.com/in/rayyand" target={"_blank"}>
+            <a href="https://linkedin.com/in/rayyand" target="_blank">
               <svg
                 width="40"
                 height="40"
@@ -126,7 +126,7 @@ const Home = () => {
 
           {/* TWITTER ICON */}
           <div className="twitter">
-            <a href="https://twitter.com/" target={"_blank"}>
+            <a href="https://twitter.com/" target="_blank">
               <svg
                 width="40"
                 height="40"
