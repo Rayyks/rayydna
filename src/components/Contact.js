@@ -2,6 +2,7 @@ import React from "react";
 import { useRef } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import emailjs from "@emailjs/browser";
+import "../assets/css/public.css";
 
 const Contact = () => {
   const form = useRef();
@@ -28,8 +29,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="container-fluid p-5">
-      <div className="d-sm-flex align-items-center justify-content-center">
+    <div className="flex flex5 p-5 justify-center">
+      <div className="form-section d-sm-flex align-items-center justify-content-center">
         <div>
           <form ref={form} onSubmit={sendEmail}>
             <ul style={{ listStyle: "none" }} className="p-4">
@@ -71,7 +72,7 @@ const Contact = () => {
               <li>
                 <input
                   type="submit"
-                  className="btn btn-primary custom-btn fw-bold m-3 px-5"
+                  className="btn-custom bg- fw-bold m-3 rounded-md"
                   value="SEND"
                 />
               </li>
@@ -84,7 +85,7 @@ const Contact = () => {
             className="player d-md-none d-lg-block"
             loop
             autoplay
-            style={{ maxHeight: "500px", maxWidth: "500px" }}
+            style={{ maxHeight: "300px", maxWidth: "300px" }}
           />
         </div>
       </div>
