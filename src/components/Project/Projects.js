@@ -3,10 +3,16 @@ import data from "../../data.js";
 import Project from "./Project.js";
 import { Link } from "react-router-dom";
 import "./style.css";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div className="flex3 container-fluid bg-light p-5 min-vh-100">
+    <motion.div
+      className="flex3 container-fluid bg-light p-5 min-vh-100"
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exit={{ y: window.innerWidth, transition: { duration: 0.5 } }}
+    >
       {/* HEADER */}
       <div className="menu-top">
         <div className="home-button2 font-normal">
@@ -178,7 +184,7 @@ const Projects = () => {
           );
         })}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

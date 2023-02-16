@@ -1,23 +1,34 @@
-import SharedLayout from "./components/Navbar/SharedLayout";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Projects from "./components/Project/Projects";
-import Contact from "./components/Contact";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import AnimatedCursor from "react-animated-cursor";
+import AnimatedRoutes from "./components/AnimatedRoutes";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<SharedLayout />}>
-            <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="contact" element={<Contact />} />
-          </Route>
-        </Routes>
+        <AnimatedRoutes />
       </BrowserRouter>
+      <AnimatedCursor
+        innerSize={17}
+        outerSize={13}
+        color="193, 11, 111"
+        outerAlpha={0.7}
+        innerScale={0.7}
+        outerScale={5}
+        clickables={[
+          "a",
+          'input[type="text"]',
+          'input[type="email"]',
+          'input[type="number"]',
+          'input[type="submit"]',
+          'input[type="image"]',
+          "label[for]",
+          "select",
+          "textarea",
+          "button",
+          ".link",
+        ]}
+      />
     </>
   );
 }

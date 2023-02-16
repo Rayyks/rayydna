@@ -6,8 +6,6 @@
   background-color: white;
   transform: translateY(-12%);
   width: 100%;
-  animation-name: onLoad;
-  animation-duration: 1s;
 }
 
 .container3 {
@@ -95,16 +93,6 @@
   padding-top: 5vh;
 }
 
-@keyframes onLoad {
-  from {
-    opacity: 0;
-    background-color: black;
-  }
-  to {
-    opacity: 1;
-    background-color: white;
-  }
-}
 @keyframes aboutOn {
   from {
     opacity: 0;

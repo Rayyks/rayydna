@@ -3,6 +3,7 @@ import { useRef } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import emailjs from "@emailjs/browser";
 import "../assets/css/public.css";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   const form = useRef();
@@ -29,7 +30,12 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex5 p-5 justify-center">
+    <motion.div
+      className="flex flex5 p-5 justify-center"
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exit={{ x: window.innerWidth, transition: { duration: 0.5 } }}
+    >
       <div className="form-section d-sm-flex align-items-center justify-content-center">
         <div>
           <form ref={form} onSubmit={sendEmail}>
@@ -89,7 +95,7 @@ const Contact = () => {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

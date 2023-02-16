@@ -17,8 +17,6 @@ html {
   width: 100%;
   height: 100vh;
   background-color: black;
-  animation-name: onloadHome;
-  animation-duration: 1s;
 }
 
 .flex1 .container2 {
@@ -125,15 +123,5 @@ html {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-@keyframes onloadHome {
-  from {
-    opacity: 0;
-    background-color: white;
-  }
-  to {
-    opacity: 1;
-    background-color: black;
   }
 }/*# sourceMappingURL=style.css.map */

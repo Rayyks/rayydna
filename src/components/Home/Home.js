@@ -2,10 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 import "../../assets/fonts/NewakeFont-Demo.otf";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="flex flex1">
+    <motion.div
+      className="flex flex1"
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exit={{ y: window.innerWidth, transition: { duration: 0.5 } }}
+    >
       <div className="container2">
         {/* ICONS */}
 
@@ -170,7 +176,7 @@ const Home = () => {
         </div>
         {/* END MY NAME */}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

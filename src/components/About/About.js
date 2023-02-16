@@ -12,12 +12,17 @@ import Sasslogo from "../../assets/icons/sass.svg";
 import Taillogo from "../../assets/icons/tailwindcss.svg";
 import Figma from "../../assets/icons/figma.svg";
 import Bootstrap from "../../assets/icons/Bootstrap.svg";
-
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="flex flex2">
+    <motion.div
+      className="flex flex2"
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exit={{ y: window.innerWidth, transition: { duration: 0.5 } }}
+    >
       <div className="container3">
         <div className="menu-top">
           <div className="home-button font-normal">
@@ -86,7 +91,7 @@ const About = () => {
         </AnimationOnScroll>
         {/* SKILS */}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
