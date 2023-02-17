@@ -34,7 +34,7 @@ const Contact = () => {
       className="flex flex5 p-5 justify-center"
       initial={{ width: 0 }}
       animate={{ width: "100%" }}
-      exit={{ x: window.innerWidth, transition: { duration: 0.5 } }}
+      exit={{ y: window.innerWidth, transition: { duration: 0.5 } }}
     >
       <div className="form-section d-sm-flex align-items-center justify-content-center">
         <div>

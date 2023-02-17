@@ -36,6 +36,11 @@
   --clr-white: #fff;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 
 
 @font-face {

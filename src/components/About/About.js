@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Me from "../../assets/img/me-bruh.jpg";
-import "./style.css";
 import HtmlLogo from "../../assets/icons/html.svg";
 import CssLogo from "../../assets/icons/css.svg";
 import JSLogo from "../../assets/icons/js.svg";
@@ -14,14 +13,15 @@ import Figma from "../../assets/icons/figma.svg";
 import Bootstrap from "../../assets/icons/Bootstrap.svg";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { motion } from "framer-motion";
+import "./style.css";
 
 const About = () => {
   return (
     <motion.div
       className="flex flex2"
-      initial={{ width: 0 }}
-      animate={{ width: "100%" }}
-      exit={{ y: window.innerWidth, transition: { duration: 0.5 } }}
+      initial={{ opacity: 1 }}
+      animate={{ opacity: "100%" }}
+      exit={{ opacity: 0 }}
     >
       <div className="container3">
         <div className="menu-top">

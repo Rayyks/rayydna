@@ -2,16 +2,16 @@ import React from "react";
 import data from "../../data.js";
 import Project from "./Project.js";
 import { Link } from "react-router-dom";
-import "./style.css";
 import { motion } from "framer-motion";
+import "./style.css";
 
 const Projects = () => {
   return (
     <motion.div
       className="flex3 container-fluid bg-light p-5 min-vh-100"
-      initial={{ width: 0 }}
-      animate={{ width: "100%" }}
-      exit={{ y: window.innerWidth, transition: { duration: 0.5 } }}
+      initial={{ opacity: 1 }}
+      animate={{ opacity: "100%" }}
+      exit={{ opacity: 0 }}
     >
       {/* HEADER */}
       <div className="menu-top">

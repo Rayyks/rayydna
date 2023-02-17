@@ -8,7 +8,7 @@ const ProjectsData = [
     id: "Portfolio",
     img: Portfolio,
     name: "Portfolio Web",
-    stack: ["< React.js /> ", "< SCSS /> ", "< Tailwindcss/>", "<Bootstrap/>"],
+    stack: ["< React.js /> ", "< SCSS /> ", "< Tailwindcss/> ", "<Bootstrap/>"],
     live: "#",
     source: "https://github.com/Rayyks/rayydna",
     description:

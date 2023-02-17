@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./style.css";
 import "../../assets/fonts/NewakeFont-Demo.otf";
 import { motion } from "framer-motion";
+import "./style.css";
 
 const Home = () => {
   return (
     <motion.div
       className="flex flex1"
-      initial={{ width: 0 }}
-      animate={{ width: "100%" }}
-      exit={{ y: window.innerWidth, transition: { duration: 0.5 } }}
+      initial={{ opacity: 1 }}
+      animate={{ opacity: "100%" }}
+      exit={{ opacity: 0 }}
     >
       <div className="container2">
         {/* ICONS */}
