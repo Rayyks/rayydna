@@ -50,9 +50,9 @@ const About = () => {
           <div className="pict grid grid-rows-3 grid-flow-col gap-4">
             <p className="me row-span-3 text-justify">
               Hello! Im Rayyand Kananda Syahputra a Frontend Developer, i like
-              making cool and simple websites projects which train me to improve
-              my coding and logic, and im always mastering my skill to be a good
-              Frontend Developer
+              making cool and simple websites projects which train me to my
+              coding skill and logic, and im always mastering my skill to be a
+              good Frontend Developer
             </p>
             <img
               className="img row-span-3 rounded-xl shadow-2xl"

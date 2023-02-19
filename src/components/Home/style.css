@@ -85,6 +85,27 @@ html {
   animation-timing-function: cubic-bezier(0.25, 3, 0.35, 0.5);
 }
 
+@media screen and (max-width: 768px) {
+  .about-button {
+    display: none;
+  }
+  .myName {
+    font-size: 4rem;
+    position: relative;
+    text-align: center;
+    font-family: customFont;
+    line-height: 10vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .myName {
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+    font-family: customFont;
+    line-height: 10vh;
+  }
+}
 @keyframes name {
   from {
     opacity: 0;

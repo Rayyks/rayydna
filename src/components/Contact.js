@@ -78,7 +78,7 @@ const Contact = () => {
               <li>
                 <input
                   type="submit"
-                  className="btn-custom bg- fw-bold m-3 rounded-md"
+                  className="btn-custom bg-sky-500 fw-bold m-3 rounded-md"
                   value="SEND"
                 />
               </li>
